@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navBox {
+    width: 100%;
+    height: 65px;
+    background-color: #BFACFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notesLogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.logoBox {
+    height: 40px;
+    width: 40px;
+}
+
+.logoBox img {
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    color: #730de0;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+
+.addBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #8C2DF0;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.iconBox {
+    height: 18px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+
+section {
+    padding: 25px;
+}
+
+.addContent {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.noteBox {
+    height: auto;
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px 15px;
+    background-color: rgb(61, 61, 133);
+    gap: 15px;
+    border-radius: 8px;
+}
+
+.inputBox {
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.allBtn {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.allBtn h4 {
+    color: white;
+    font-style: oblique;
+}
+
+.removeBox {
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(210, 57, 57);
+    color: white;
+}
+
+.removeBox i {
+    cursor: pointer;
+}
+
+
+@media (max-width:600px) {
+    .container {
+        width: 100%;
+    }
+
+}
